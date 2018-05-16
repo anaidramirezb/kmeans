@@ -2,7 +2,7 @@
 load('Data.mat');
 
 %%Para limpiar un poco los datos (no pude borrarlos y acodomodarlos directamente del archivo
-%    ¯\_(?)_/¯ )
+%   Â¯\_(ãƒ„)_/Â¯)
 dataset(:,{'observa','BP1_7','acomapanado'}) = [];
 dataset = dataset(:,[1:22 24:29 23]);
  dataset(69,:) = [];
